@@ -9,4 +9,4 @@ generate a random but strong password automatically, and you do not have to reme
 there you go! Your password manager would pick it up for you. So, next time you do not need to use any of the forget password to reset it.
 
 
-The UI elements including window, canvas, image, labels and buttons of the app are built by using tkinter module. 
+The UI elements including window widget, canvas widget, entry widgets, image, labels and buttons of the app are built by using the tkinter module. 
