@@ -6,7 +6,7 @@ what a strong password should be, and you might have troubles remembering every 
 This password manager application can make your life easier. By simply typing the name of the account you own, e.g Facebook, and
 put your password there, this app can store those account credentials by writing into a JSON file. The most powerful thing is you can even 
 generate a random but strong password automatically, and you do not have to remember it! By typing your account name and clicking search, 
-there you go! Your password manager would pick it up for you. So, next time you do not need to use any of the "forget password" to reset it.
+there you go! Your password manager would pick it up for you. So, next time you do not need to use any of the forget password to reset it.
 
 
 The UI elements including window, canvas, image, labels and buttons of the app are built by using tkinter module. 
