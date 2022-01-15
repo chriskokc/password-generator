@@ -4,6 +4,7 @@ from random import randint, choice, shuffle
 import pyperclip
 import json
 
+
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
 def generate_password():
     letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
@@ -37,8 +38,6 @@ def save():
     }
     # make sure all the fields have been entered
     if len(website) > 0 and len(password) > 0:
-        # if user confirm a yes to the details entered
-        # ask a question, return true if the answer is yes
         try:
             # try to read a file called data.json
             with open("data.json", mode="r") as data_file:
@@ -61,6 +60,7 @@ def save():
     else:
         # display an error message
         messagebox.showerror(title="Oops", message="Please don't leave any fields empty!")
+
 
 # ---------------------------- FIND PASSWORD ------------------------------- #
 def find_password():
